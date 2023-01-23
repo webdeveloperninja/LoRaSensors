@@ -646,9 +646,9 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="LORA-E5_Eagle_Library" package="MODULE28P-1.25-12X12X2.5MM" value="" x="48.26" y="29.21" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.626" y="31.115" size="0.889" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="52.07" y="29.21" size="0.6096" layer="27" ratio="12" rot="R270" align="center"/>
+<element name="U1" library="LORA-E5_Eagle_Library" package="MODULE28P-1.25-12X12X2.5MM" value="" x="49.53" y="34.29" smashed="yes" rot="R270">
+<attribute name="NAME" x="56.896" y="36.195" size="0.889" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="53.34" y="34.29" size="0.6096" layer="27" ratio="12" rot="R270" align="center"/>
 </element>
 <element name="R1" library="Resistor" library_urn="urn:adsk.wipprod:fs.file:vf.e-u8ywd7TNSccCkbpCXlzg" package="RESC2012X65N" value="R0805" x="67.31" y="38.1" smashed="yes">
 <attribute name="COMMENT" value="2-2176053-0" x="67.31" y="38.1" size="1.778" layer="27" display="off"/>
@@ -657,44 +657,44 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="0805" x="67.31" y="38.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.64211875" y="36.10715" size="0.62059375" layer="27"/>
 </element>
-<element name="R2" library="Resistor" library_urn="urn:adsk.wipprod:fs.file:vf.e-u8ywd7TNSccCkbpCXlzg" package="RESC2012X65N" value="R0805" x="44.45" y="45.72" smashed="yes">
-<attribute name="COMMENT" value="2-2176053-0" x="44.45" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant with Exemptions" x="44.45" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.784140625" y="47.181959375" size="0.62098125" layer="25"/>
-<attribute name="PACKAGE" value="0805" x="44.45" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="42.78211875" y="43.72715" size="0.62059375" layer="27"/>
+<element name="R2" library="Resistor" library_urn="urn:adsk.wipprod:fs.file:vf.e-u8ywd7TNSccCkbpCXlzg" package="RESC2012X65N" value="R0805" x="44.45" y="45.72" smashed="yes" rot="R180">
+<attribute name="COMMENT" value="2-2176053-0" x="44.45" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant with Exemptions" x="44.45" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="46.115859375" y="44.258040625" size="0.62098125" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="0805" x="44.45" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="46.11788125" y="47.71285" size="0.62059375" layer="27" rot="R180"/>
 </element>
-<element name="U$1" library="U.FL-R-SMT-1_60_" package="U.FL-R-SMT-1(60)" value="U.FL-R-SMT-1(60)" x="71.12" y="55.88" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="71.12" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder " x="71.12" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Hirose Electric" x="71.12" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="U.FL-R-SMT-1(60)" x="71.12" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="None" x="71.12" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="71.12" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/U.FL-R-SMT-1(60)/?ref=eda" x="71.12" y="55.88" size="1.778" layer="27" display="off"/>
+<element name="U$1" library="U.FL-R-SMT-1_60_" package="U.FL-R-SMT-1(60)" value="U.FL-R-SMT-1(60)" x="50.8" y="20.0736" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="50.8" y="20.0736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder " x="50.8" y="20.0736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Hirose Electric" x="50.8" y="20.0736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="U.FL-R-SMT-1(60)" x="50.8" y="20.0736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="None" x="50.8" y="20.0736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="50.8" y="20.0736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/U.FL-R-SMT-1(60)/?ref=eda" x="50.8" y="20.0736" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1" library="LD051A121KAB2A" package="CAPC2012X140N" value="LD051A121KAB2A" x="74.93" y="44.45" smashed="yes">
-<attribute name="NAME" x="73.455" y="45.85" size="0.8" layer="25"/>
-<attribute name="VALUE" x="73.455" y="43.05" size="0.8" layer="27" align="top-left"/>
+<element name="C1" library="LD051A121KAB2A" package="CAPC2012X140N" value="" x="44.45" y="25.4" smashed="yes">
+<attribute name="NAME" x="42.975" y="26.8" size="0.8" layer="25"/>
+<attribute name="VALUE" x="42.975" y="24" size="0.8" layer="27" align="top-left"/>
 </element>
-<element name="C2" library="LD051A121KAB2A" package="CAPC2012X140N" value="LD051A121KAB2A" x="66.04" y="41.91" smashed="yes">
-<attribute name="NAME" x="64.565" y="43.31" size="0.8" layer="25"/>
-<attribute name="VALUE" x="64.565" y="40.51" size="0.8" layer="27" align="top-left"/>
+<element name="C2" library="LD051A121KAB2A" package="CAPC2012X140N" value="" x="44.45" y="21.59" smashed="yes">
+<attribute name="NAME" x="42.975" y="22.99" size="0.8" layer="25"/>
+<attribute name="VALUE" x="42.975" y="20.19" size="0.8" layer="27" align="top-left"/>
 </element>
-<element name="S1" library="Switch" package="B3U-3100P(M)-B" package3d_urn="urn:adsk.eagle:package:24935610/1" value="B3U-3100P(M)-B" x="44.45" y="52.07" smashed="yes">
-<attribute name="CATEGORY" value="SWITCH" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Ultra-small Surface-mounting Tactile Switches with High Contact Reliability " x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="MAUFACTURER" value="OMRON" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="44.45" y="55.17" size="1.778" layer="25" align="center"/>
-<attribute name="OPERATING_TEMP" value="-25°C to +70°C at 60%RH max" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="ACTIVE" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANCE" value="RoHS Compliant" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="B3U" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="SUBCATEGORY" value="" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="THERMAL_LOSS" value="" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Tactile" x="44.45" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="44.45" y="48.1" size="1.778" layer="27" align="center"/>
+<element name="S1" library="Switch" package="B3U-3100P(M)-B" package3d_urn="urn:adsk.eagle:package:24935610/1" value="B3U-3100P(M)-B" x="69.85" y="49.53" smashed="yes">
+<attribute name="CATEGORY" value="SWITCH" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Ultra-small Surface-mounting Tactile Switches with High Contact Reliability " x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MAUFACTURER" value="OMRON" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="69.85" y="52.63" size="1.778" layer="25" align="center"/>
+<attribute name="OPERATING_TEMP" value="-25°C to +70°C at 60%RH max" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="ACTIVE" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANCE" value="RoHS Compliant" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="B3U" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="SUBCATEGORY" value="" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="THERMAL_LOSS" value="" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Tactile" x="69.85" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="45.56" size="1.778" layer="27" align="center"/>
 </element>
 <element name="C3" library="LD051A121KAB2A" package="CAPC2012X140N" value="LD051A121KAB2A" x="64.77" y="26.67" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.37" y="25.195" size="0.8" layer="25" rot="R90"/>
@@ -708,96 +708,112 @@ design rules under a new name.</description>
 <attribute name="STANDARD" value="Manufacturer Recommendations" x="32.4104" y="84.4296" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.8704" y="83.1596" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R3" library="R0805" package="RESC2012X65N" value="2-2176053-0" x="57.15" y="53.34" smashed="yes">
+<element name="R3" library="R0805" package="RESC2012X65N" value="" x="57.15" y="53.34" smashed="yes">
 <attribute name="COMMENT" value="2-2176053-0" x="57.15" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="EU_ROHS_COMPLIANCE" value="Compliant with Exemptions" x="57.15" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="55.484140625" y="54.801959375" size="0.62098125" layer="25"/>
 <attribute name="PACKAGE" value="0805" x="57.15" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.48211875" y="51.34715" size="0.62059375" layer="27"/>
 </element>
+<element name="R4" library="R0805" package="RESC2012X65N" value="" x="49.53" y="24.13" smashed="yes">
+<attribute name="COMMENT" value="2-2176053-0" x="49.53" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant with Exemptions" x="49.53" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="47.864140625" y="25.591959375" size="0.62098125" layer="25"/>
+<attribute name="PACKAGE" value="0805" x="49.53" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="47.86211875" y="22.13715" size="0.62059375" layer="27"/>
+</element>
 </elements>
 <signals>
-<signal name="GND">
-<contactref element="U1" pad="14"/>
-<contactref element="U1" pad="16"/>
-<contactref element="U1" pad="22"/>
-<contactref element="C3" pad="1"/>
-<contactref element="U1" pad="2"/>
-<contactref element="R3" pad="1"/>
-<contactref element="U1" pad="15"/>
-<contactref element="C1" pad="2"/>
-<contactref element="U$1" pad="1"/>
-<contactref element="U$1" pad="2"/>
-<contactref element="U$1" pad="3"/>
-<contactref element="C1" pad="1"/>
-<contactref element="C2" pad="1"/>
-<contactref element="C2" pad="2"/>
-<wire x1="71.12" y1="54.355" x2="72.595" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="69.645" y1="55.88" x2="71.12" y2="54.355" width="0" layer="19" extent="1-1"/>
-<wire x1="74.03" y1="44.45" x2="71.12" y2="54.355" width="0" layer="19" extent="1-1"/>
-<wire x1="75.83" y1="44.45" x2="74.03" y2="44.45" width="0" layer="19" extent="1-1"/>
-<wire x1="66.94" y1="41.91" x2="74.03" y2="44.45" width="0" layer="19" extent="1-1"/>
-<wire x1="65.14" y1="41.91" x2="66.94" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="56.215" y1="53.34" x2="69.645" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="50.76" y1="35.21" x2="65.14" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="54.26" y1="25.46" x2="50.76" y2="35.21" width="0" layer="19" extent="1-1"/>
-<wire x1="45.76" y1="23.21" x2="54.26" y2="25.46" width="0" layer="19" extent="1-1"/>
-<wire x1="44.51" y1="23.21" x2="45.76" y2="23.21" width="0" layer="19" extent="1-1"/>
-<wire x1="42.26" y1="25.46" x2="44.51" y2="23.21" width="0" layer="19" extent="1-1"/>
-<wire x1="64.77" y1="25.77" x2="54.26" y2="25.46" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$1">
 <contactref element="U1" pad="10"/>
 <contactref element="R2" pad="2"/>
-<wire x1="42.26" y1="30.46" x2="45.385" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="43.53" y1="35.54" x2="43.515" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="9"/>
 <contactref element="R1" pad="2"/>
-<wire x1="42.26" y1="31.71" x2="68.245" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="43.53" y1="36.79" x2="68.245" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="U1" pad="24"/>
 <contactref element="S1" pad="2"/>
-<wire x1="54.26" y1="27.96" x2="42.7" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="55.53" y1="33.04" x2="68.1" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="S1" pad="1"/>
 <contactref element="R3" pad="2"/>
-<wire x1="46.2" y1="52.07" x2="58.085" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="58.085" y1="53.34" x2="71.6" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="1"/>
 <contactref element="C3" pad="2"/>
-<wire x1="52.01" y1="35.21" x2="64.77" y2="27.57" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="3V3">
 <contactref element="A1" pad="3V3"/>
-</signal>
-<signal name="5V">
-<contactref element="A1" pad="5V"/>
-</signal>
-<signal name="GND_1">
-<contactref element="A1" pad="GND_1"/>
-</signal>
-<signal name="GND_2">
-<contactref element="A1" pad="GND_2"/>
-</signal>
-<signal name="VIN">
-<contactref element="A1" pad="VIN"/>
-</signal>
-<signal name="GND_3">
-<contactref element="A1" pad="GND_3"/>
+<wire x1="64.77" y1="27.57" x2="53.28" y2="40.29" width="0" layer="19" extent="1-1"/>
+<wire x1="34.9504" y1="48.8696" x2="53.28" y2="40.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX">
 <contactref element="A1" pad="D0"/>
 <contactref element="R2" pad="1"/>
-<wire x1="43.515" y1="45.72" x2="83.2104" y2="20.9296" width="0" layer="19" extent="1-1"/>
+<wire x1="45.385" y1="45.72" x2="83.2104" y2="20.9296" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX">
 <contactref element="A1" pad="D1"/>
 <contactref element="R1" pad="1"/>
 <wire x1="66.375" y1="38.1" x2="83.2104" y2="23.4696" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="C3" pad="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="U1" pad="17"/>
+<contactref element="R4" pad="1"/>
+<wire x1="48.28" y1="28.29" x2="48.28" y2="24.445" width="0.1524" layer="1"/>
+<wire x1="48.28" y1="24.445" x2="48.595" y2="24.13" width="0.1524" layer="1"/>
+</signal>
+<signal name="RST">
+<contactref element="A1" pad="D2"/>
+<contactref element="R4" pad="2"/>
+<wire x1="50.465" y1="24.13" x2="81.3308" y2="24.13" width="0.1524" layer="1"/>
+<wire x1="81.3308" y1="24.13" x2="83.2104" y2="26.0096" width="0.1524" layer="1"/>
+</signal>
+<signal name="5V">
+<contactref element="A1" pad="5V"/>
+</signal>
+<signal name="GND">
+<contactref element="A1" pad="GND_2"/>
+<contactref element="A1" pad="GND_1"/>
+<wire x1="34.9504" y1="41.2496" x2="34.9504" y2="43.7896" width="0" layer="19" extent="1-16"/>
+<contactref element="A1" pad="GND_3"/>
+<wire x1="34.9504" y1="43.7896" x2="83.2104" y2="58.0136" width="0" layer="19" extent="1-16"/>
+<contactref element="C1" pad="1"/>
+<wire x1="83.2104" y1="58.0136" x2="43.55" y2="25.4" width="0" layer="19" extent="1-16"/>
+<contactref element="C1" pad="2"/>
+<wire x1="43.55" y1="25.4" x2="45.35" y2="25.4" width="0" layer="19" extent="1-16"/>
+<contactref element="C2" pad="1"/>
+<wire x1="45.35" y1="25.4" x2="43.55" y2="21.59" width="0" layer="19" extent="1-16"/>
+<contactref element="C2" pad="2"/>
+<wire x1="43.55" y1="21.59" x2="45.35" y2="21.59" width="0" layer="19" extent="1-16"/>
+<contactref element="R3" pad="1"/>
+<wire x1="45.35" y1="21.59" x2="56.215" y2="53.34" width="0" layer="19" extent="1-16"/>
+<contactref element="U$1" pad="1"/>
+<wire x1="56.215" y1="53.34" x2="49.275" y2="20.0736" width="0" layer="19" extent="1-16"/>
+<contactref element="U$1" pad="2"/>
+<wire x1="49.275" y1="20.0736" x2="50.8" y2="18.5986" width="0" layer="19" extent="1-16"/>
+<contactref element="U$1" pad="3"/>
+<wire x1="50.8" y1="18.5986" x2="50.8" y2="21.5486" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="14"/>
+<wire x1="50.8" y1="21.5486" x2="43.53" y2="30.54" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="15"/>
+<wire x1="43.53" y1="30.54" x2="45.78" y2="28.29" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="16"/>
+<wire x1="45.78" y1="28.29" x2="47.03" y2="28.29" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="2"/>
+<wire x1="47.03" y1="28.29" x2="52.03" y2="40.29" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="22"/>
+<wire x1="52.03" y1="40.29" x2="55.53" y2="30.54" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="VIN">
+<contactref element="A1" pad="VIN"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
