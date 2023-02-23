@@ -1340,12 +1340,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector"/>
 <part name="SUPPLY12" library="Power_Symbols" deviceset="VCC" device="" value="VCC"/>
 <part name="SUPPLY13" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector"/>
-<part name="SUPPLY14" library="Power_Symbols" deviceset="VCC" device="" value="VCC"/>
-<part name="SUPPLY15" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector"/>
-<part name="SUPPLY16" library="Power_Symbols" deviceset="VCC" device="" value="VCC"/>
-<part name="SUPPLY17" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -1451,26 +1445,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <instance part="SUPPLY13" gate="G$1" x="-45.72" y="-132.08" smashed="yes">
 <attribute name="VALUE" x="-45.72" y="-134.62" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="J2" gate="G$1" x="-73.66" y="-160.02" smashed="yes">
-<attribute name="VALUE" x="-78.74" y="-165.354" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="-78.74" y="-152.146" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="SUPPLY14" gate="G$1" x="-55.88" y="-160.02" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-51.435" y="-160.02" size="1.778" layer="96" rot="R90" align="center"/>
-</instance>
-<instance part="SUPPLY15" gate="G$1" x="-45.72" y="-170.18" smashed="yes">
-<attribute name="VALUE" x="-45.72" y="-172.72" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="J3" gate="G$1" x="7.62" y="-119.38" smashed="yes">
-<attribute name="VALUE" x="2.54" y="-124.714" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="2.54" y="-111.506" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="SUPPLY16" gate="G$1" x="25.4" y="-119.38" smashed="yes" rot="R270">
-<attribute name="VALUE" x="29.845" y="-119.38" size="1.778" layer="96" rot="R90" align="center"/>
-</instance>
-<instance part="SUPPLY17" gate="G$1" x="35.56" y="-129.54" smashed="yes">
-<attribute name="VALUE" x="35.56" y="-132.08" size="1.778" layer="96" align="center"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -1557,18 +1531,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="SUPPLY13" gate="G$1" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<wire x1="-66.04" y1="-162.56" x2="-45.72" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="-162.56" x2="-45.72" y2="-167.64" width="0.1524" layer="91"/>
-<pinref part="SUPPLY15" gate="G$1" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="15.24" y1="-121.92" x2="35.56" y2="-121.92" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-121.92" x2="35.56" y2="-127" width="0.1524" layer="91"/>
-<pinref part="SUPPLY17" gate="G$1" pin="GND"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -1623,16 +1585,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
 <wire x1="-55.88" y1="-121.92" x2="-66.04" y2="-121.92" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
-<wire x1="-55.88" y1="-160.02" x2="-66.04" y2="-160.02" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
-<wire x1="25.4" y1="-119.38" x2="15.24" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -1696,16 +1648,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <wire x1="-66.04" y1="-119.38" x2="-60.96" y2="-119.38" width="0.1524" layer="91"/>
 <label x="-60.96" y="-119.38" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="-66.04" y1="-157.48" x2="-60.96" y2="-157.48" width="0.1524" layer="91"/>
-<label x="-60.96" y="-157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="15.24" y1="-116.84" x2="20.32" y2="-116.84" width="0.1524" layer="91"/>
-<label x="20.32" y="-116.84" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -1717,16 +1659,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="-66.04" y1="-116.84" x2="-60.96" y2="-116.84" width="0.1524" layer="91"/>
 <label x="-60.96" y="-116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="-66.04" y1="-154.94" x2="-60.96" y2="-154.94" width="0.1524" layer="91"/>
-<label x="-60.96" y="-154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="15.24" y1="-114.3" x2="20.32" y2="-114.3" width="0.1524" layer="91"/>
-<label x="20.32" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
